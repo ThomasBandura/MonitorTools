@@ -1,6 +1,6 @@
 # Contributing to MonitorTools
 
-Thank you for your interest in contributing to PSMonitorTools! This document provides guidelines and instructions for contributing.
+Thank you for your interest in contributing to MonitorTools! This document provides guidelines and instructions for contributing.
 
 ## Code of Conduct
 
@@ -145,8 +145,8 @@ The PowerShell module and `MonitorTools.Core` implement the same rules (PBP dete
 ## Documentation
 
 - Update README.md if adding major features
-- Add examples to docs/Examples/
-- Update API documentation
+- Update the user guides in `docs/PowerShell/` and `docs/CSharp/`; a change that affects both implementations needs both
+- Add an entry to `CHANGELOG.md` under `[Unreleased]`
 - Include usage examples in your PR description
 
 ## Questions?

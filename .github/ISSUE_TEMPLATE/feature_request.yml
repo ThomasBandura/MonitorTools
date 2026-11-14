@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest a new command, cmdlet or behavior
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: implementation
+    attributes:
+      label: Implementation
+      options:
+        - Both
+        - PowerShell module (PSMonitorTools)
+        - C# CLI / library
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: What do you want to do, and why is it not possible today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Example command or cmdlet call, VCP codes if known
+  - type: input
+    id: monitor
+    attributes:
+      label: Monitor make and model
+      description: If the feature depends on a specific monitor

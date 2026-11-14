@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Documentation
+- Installation guides corrected: the module is not on the PowerShell Gallery, the release executables are self-contained and need no .NET installation. README lists `input switch` and `pbp set-left`.
+- `docs/PowerShell/Get-MonitorInfo.md` renamed to `docs/PowerShell/Module-Usage.md`.
+- Added `SECURITY.md`, issue forms, a pull request template, Dependabot configuration, `.gitattributes` and `.editorconfig`.
+
 ## [1.1.0] - 2026-11-14
 
 ### Added

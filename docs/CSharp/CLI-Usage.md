@@ -7,7 +7,7 @@ MonitorTools ist ein Windows-Kommandozeilenwerkzeug zur Steuerung von Monitoren 
 ## Systemvoraussetzungen
 
 - Windows 11
-- .NET 10.0 (SDK 10.0.300) oder höher
+- Keine .NET-Installation für die Release-Exes (self-contained); zum Bauen aus dem Quellcode das .NET 10 SDK, siehe [Installation](./Installation.md)
 - Monitor mit DDC/CI-Unterstützung
 
 ## Verfügbare Befehle
