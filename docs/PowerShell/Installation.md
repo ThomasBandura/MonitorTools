@@ -8,7 +8,7 @@ Install-Module -Name PSMonitorTools
 
 ## Manual Installation
 
-1. Download the latest release from [Releases](https://github.com/ThomasBandura/PSMonitorTools/releases)
+1. Download the latest release from [Releases](https://github.com/ThomasBandura/MonitorTools/releases)
 2. Extract the ZIP file
 3. Copy the `PSMonitorTools` folder to one of your PowerShell module paths:
    - Current User: `$HOME\Documents\PowerShell\Modules`

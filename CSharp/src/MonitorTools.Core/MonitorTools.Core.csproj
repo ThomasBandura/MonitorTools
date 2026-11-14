@@ -9,8 +9,8 @@
     <Product>PSMonitorTools</Product>
     <Description>Core library for monitor information and brightness control</Description>
     <Copyright>Copyright © 2026</Copyright>
-    <PackageProjectUrl>https://github.com/ThomasBandura/PSMonitorTools</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ThomasBandura/PSMonitorTools</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ThomasBandura/MonitorTools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ThomasBandura/MonitorTools</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>monitor;brightness;display;windows</PackageTags>
   </PropertyGroup>

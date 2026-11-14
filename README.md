@@ -1,10 +1,10 @@
-# PSMonitorTools
+# MonitorTools
 
 Windows-Monitorsteuerung über DDC/CI - verfügbar als PowerShell-Modul und C# CLI-Tool.
 
-[![PowerShell CI](https://github.com/ThomasBandura/PSMonitorTools/workflows/PowerShell%20CI/badge.svg)](https://github.com/ThomasBandura/PSMonitorTools/actions)
-[![C# CI](https://github.com/ThomasBandura/PSMonitorTools/workflows/C%23%20CI/badge.svg)](https://github.com/ThomasBandura/PSMonitorTools/actions)
-[![License](https://img.shields.io/github/license/ThomasBandura/PSMonitorTools)](LICENSE)
+[![PowerShell CI](https://github.com/ThomasBandura/MonitorTools/workflows/PowerShell%20CI/badge.svg)](https://github.com/ThomasBandura/MonitorTools/actions)
+[![C# CI](https://github.com/ThomasBandura/MonitorTools/workflows/C%23%20CI/badge.svg)](https://github.com/ThomasBandura/MonitorTools/actions)
+[![License](https://img.shields.io/github/license/ThomasBandura/MonitorTools)](LICENSE)
 
 ## 📦 Verfügbare Implementierungen
 

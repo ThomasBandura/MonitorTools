@@ -2,7 +2,7 @@
 
 ## Download
 
-Download the latest executable from [Releases](https://github.com/ThomasBandura/PSMonitorTools/releases):
+Download the latest executable from [Releases](https://github.com/ThomasBandura/MonitorTools/releases):
 - `MonitorTools-win-x64.exe` for 64-bit Windows
 - `MonitorTools-win-x86.exe` for 32-bit Windows
 
