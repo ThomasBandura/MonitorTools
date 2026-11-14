@@ -1,4 +1,4 @@
-# Contributing to PSMonitorTools
+# Contributing to MonitorTools
 
 Thank you for your interest in contributing to PSMonitorTools! This document provides guidelines and instructions for contributing.
 

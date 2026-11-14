@@ -14,9 +14,9 @@
     PrivateData = @{
         PSData = @{
             Tags = @('Monitor', 'DDC-CI', 'VCP', 'PBP', 'Brightness', 'Input', 'Windows')
-            ProjectUri = 'https://github.com/ThomasBandura/PSMonitorTools'
-            LicenseUri = 'https://github.com/ThomasBandura/PSMonitorTools/blob/master/LICENSE'
-            ReleaseNotes = 'https://github.com/ThomasBandura/PSMonitorTools/blob/master/CHANGELOG.md'
+            ProjectUri = 'https://github.com/ThomasBandura/MonitorTools'
+            LicenseUri = 'https://github.com/ThomasBandura/MonitorTools/blob/master/LICENSE'
+            ReleaseNotes = 'https://github.com/ThomasBandura/MonitorTools/blob/master/CHANGELOG.md'
         }
     }
 }

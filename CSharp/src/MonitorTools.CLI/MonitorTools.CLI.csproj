@@ -8,11 +8,11 @@
     <AssemblyName>MonitorTools</AssemblyName>
     <Authors>Thomas Bandura</Authors>
     <Company>Thomas Bandura</Company>
-    <Product>PSMonitorTools CLI</Product>
+    <Product>MonitorTools CLI</Product>
     <Description>Command-line tool for monitor information and brightness control</Description>
     <Copyright>Copyright © 2026</Copyright>
-    <PackageProjectUrl>https://github.com/ThomasBandura/PSMonitorTools</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/ThomasBandura/PSMonitorTools</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/ThomasBandura/MonitorTools</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ThomasBandura/MonitorTools</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     
     <!-- Single-file executable configuration -->
