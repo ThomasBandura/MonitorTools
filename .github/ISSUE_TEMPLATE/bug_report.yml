@@ -1,0 +1,63 @@
+name: Bug report
+description: Something does not work as documented
+labels: [bug]
+body:
+  - type: dropdown
+    id: implementation
+    attributes:
+      label: Implementation
+      options:
+        - PowerShell module (PSMonitorTools)
+        - C# CLI (MonitorTools.exe)
+        - C# library (MonitorTools.Core)
+        - Both
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: MonitorTools version
+      description: "`MonitorTools --version` or `(Get-Module PSMonitorTools).Version`"
+      placeholder: 1.1.0
+    validations:
+      required: true
+  - type: input
+    id: monitor
+    attributes:
+      label: Monitor make and model
+      placeholder: Dell U4924DW
+    validations:
+      required: true
+  - type: input
+    id: connection
+    attributes:
+      label: Connection
+      description: How this PC is connected to the monitor (DisplayPort, HDMI, USB-C, dock)
+  - type: input
+    id: environment
+    attributes:
+      label: Windows and PowerShell/.NET version
+      placeholder: Windows 11 24H2, PowerShell 7.5
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact command(s) you ran
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+      description: Include error messages and the exit code
+    validations:
+      required: true
+  - type: textarea
+    id: info
+    attributes:
+      label: Output of `Get-MonitorInfo` / `MonitorTools get-info`
+      description: Remove the serial number if you do not want to share it
+      render: text

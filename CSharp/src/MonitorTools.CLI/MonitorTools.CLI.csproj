@@ -9,7 +9,9 @@
     <Authors>Thomas Bandura</Authors>
     <Company>Thomas Bandura</Company>
     <Product>MonitorTools CLI</Product>
-    <Description>Command-line tool for monitor information and brightness control</Description>
+    <Description>Command-line tool to control Windows monitors via DDC/CI: monitor information, brightness, contrast, volume, input sources, PBP and raw VCP features</Description>
+    <PackageTags>monitor;ddc-ci;vcp;pbp;brightness;input;display;windows;cli</PackageTags>
+    <IsPackable>false</IsPackable>
     <Copyright>Copyright © 2026</Copyright>
     <PackageProjectUrl>https://github.com/ThomasBandura/MonitorTools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ThomasBandura/MonitorTools</RepositoryUrl>

@@ -1,0 +1,9 @@
+# Normalize line endings in the repository; working tree follows the platform
+* text=auto
+
+*.sln text eol=crlf
+
+*.png binary
+*.ico binary
+*.exe binary
+*.dll binary

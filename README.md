@@ -2,15 +2,18 @@
 
 Windows-Monitorsteuerung über DDC/CI - verfügbar als PowerShell-Modul und C# CLI-Tool.
 
-[![PowerShell CI](https://github.com/ThomasBandura/MonitorTools/workflows/PowerShell%20CI/badge.svg)](https://github.com/ThomasBandura/MonitorTools/actions)
-[![C# CI](https://github.com/ThomasBandura/MonitorTools/workflows/C%23%20CI/badge.svg)](https://github.com/ThomasBandura/MonitorTools/actions)
+[![PowerShell CI](https://github.com/ThomasBandura/MonitorTools/actions/workflows/powershell-ci.yml/badge.svg)](https://github.com/ThomasBandura/MonitorTools/actions/workflows/powershell-ci.yml)
+[![C# CI](https://github.com/ThomasBandura/MonitorTools/actions/workflows/csharp-ci.yml/badge.svg)](https://github.com/ThomasBandura/MonitorTools/actions/workflows/csharp-ci.yml)
+[![Release](https://img.shields.io/github/v/release/ThomasBandura/MonitorTools)](https://github.com/ThomasBandura/MonitorTools/releases/latest)
 [![License](https://img.shields.io/github/license/ThomasBandura/MonitorTools)](LICENSE)
+
+Beide Implementierungen werden bewusst parallel gepflegt und verhalten sich gleich; die gemeinsamen Regeln stehen in [`spec/`](./spec/README.md).
 
 ## 📦 Verfügbare Implementierungen
 
 ### 🔷 PowerShell Module
 PowerShell-Modul für Scripting und Automation.
-- 📖 [PowerShell Dokumentation](./docs/PowerShell/Get-MonitorInfo.md)
+- 📖 [PowerShell Dokumentation](./docs/PowerShell/Module-Usage.md)
 - 💾 [Installation](./docs/PowerShell/Installation.md)
 
 ### 🔶 C# CLI Tool
@@ -71,8 +74,8 @@ Dieses Projekt bietet eine zuverlässige programmatische Schnittstelle zur Steue
 - `get-contrast / set-contrast`: Kontrast abrufen/setzen
 - `get-volume / set-volume`: Lautstärke abrufen/setzen
 - `audio [status|mute|unmute]`: Audio-Steuerung
-- `input [get|set]`: Eingabequellen-Verwaltung
-- `pbp [status|enable|disable|set-right]`: PBP-Steuerung
+- `input [get|set|switch]`: Eingabequellen-Verwaltung
+- `pbp [status|enable|disable|set-left|set-right]`: PBP-Steuerung
 - `vcp [get|set]`: Low-Level VCP-Feature-Zugriff
 
 ## Schnellstart
@@ -99,10 +102,9 @@ Switch-MonitorInput -MonitorName 'Dell' -InputLeft Hdmi1 -InputRight UsbC
 
 ### C# CLI
 
-```cmd
-# Bauen
-dotnet build CSharp/MonitorTools.sln
+`MonitorTools.exe` aus den [Releases](https://github.com/ThomasBandura/MonitorTools/releases/latest) laden (keine .NET-Installation nötig) und in einen Ordner im `PATH` legen. Aus dem Quellcode lässt sich die CLI ohne Installation mit `dotnet run --project CSharp/src/MonitorTools.CLI -- get-info` starten.
 
+```cmd
 # Monitor-Informationen
 MonitorTools get-info
 
@@ -122,4 +124,12 @@ MonitorTools pbp set-right UsbC
 Detaillierte Installationsanleitungen:
 - **PowerShell**: [Installationsanleitung](./docs/PowerShell/Installation.md)
 - **C# CLI**: [Installationsanleitung](./docs/CSharp/Installation.md)
+
+## Mitwirken
+
+Hinweise zu Entwicklung, Tests und Pull Requests stehen in [CONTRIBUTING.md](./CONTRIBUTING.md), Änderungen im [CHANGELOG](./CHANGELOG.md). Die Benutzerhandbücher sind deutsch, Installationsanleitungen, CONTRIBUTING und CHANGELOG englisch.
+
+## Lizenz
+
+[MIT](./LICENSE)
 

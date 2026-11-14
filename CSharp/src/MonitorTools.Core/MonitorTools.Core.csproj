@@ -6,14 +6,19 @@
     <Nullable>enable</Nullable>
     <Authors>Thomas Bandura</Authors>
     <Company>Thomas Bandura</Company>
-    <Product>PSMonitorTools</Product>
-    <Description>Core library for monitor information and brightness control</Description>
+    <Product>MonitorTools</Product>
+    <Description>Core library to control Windows monitors via DDC/CI: monitor information, brightness, contrast, volume, input sources, PBP and raw VCP features</Description>
     <Copyright>Copyright © 2026</Copyright>
     <PackageProjectUrl>https://github.com/ThomasBandura/MonitorTools</PackageProjectUrl>
     <RepositoryUrl>https://github.com/ThomasBandura/MonitorTools</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>monitor;brightness;display;windows</PackageTags>
+    <PackageTags>monitor;ddc-ci;vcp;pbp;brightness;input;display;windows</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\README.md" Pack="true" PackagePath="\" Visible="false" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="System.Management" Version="10.0.2" />

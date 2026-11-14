@@ -6,6 +6,8 @@ Download the latest executable from [Releases](https://github.com/ThomasBandura/
 - `MonitorTools-win-x64.exe` for 64-bit Windows
 - `MonitorTools-win-x86.exe` for 32-bit Windows
 
+The release executables are self-contained (about 70 MB each) and need no .NET installation.
+
 ## Installation
 
 ### Option 1: Portable
@@ -59,7 +61,7 @@ dotnet publish src/MonitorTools.CLI/MonitorTools.CLI.csproj -c Release -r win-x6
 ```
 The executable will be in `publish/MonitorTools.exe`
 
-**Self-Contained** (~34 MB, no runtime needed):
+**Self-Contained** (~38 MB with compression, ~70 MB without; no runtime needed):
 ```bash
 cd CSharp
 dotnet publish src/MonitorTools.CLI/MonitorTools.CLI.csproj -c Release -r win-x64 --self-contained -o publish -p:EnableCompressionInSingleFile=true
@@ -85,4 +87,6 @@ MonitorTools.exe --help
 ## Requirements
 
 - Windows 11
-- .NET 10.0 Runtime (not required for self-contained builds)
+- No .NET installation for the release executables and other self-contained builds
+- .NET 10.0 Runtime for framework-dependent builds
+- .NET 10.0 SDK (see `global.json`) to build from source

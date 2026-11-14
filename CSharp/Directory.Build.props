@@ -2,6 +2,7 @@
   <PropertyGroup>
     <!-- Single source of the product version for all C# projects -->
     <Version>1.1.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <LangVersion>latest</LangVersion>
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     <Nullable>enable</Nullable>
